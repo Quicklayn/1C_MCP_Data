@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Configuration uuid="85cff032-161a-4d6e-90db-08db1eb34c8d">
+		<InternalInfo>
+			<xr:ContainedObject>
+				<xr:ClassId>9cd510cd-abfc-11d4-9434-004095e12fc7</xr:ClassId>
+				<xr:ObjectId>0bbc35f8-5734-49e3-9008-1566053430b2</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>9fcd25a0-4822-11d4-9414-008048da11f9</xr:ClassId>
+				<xr:ObjectId>5853c2a4-eb85-4e5a-8075-c3964aae4109</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>e3687481-0a87-462c-a166-9f34594f9bba</xr:ClassId>
+				<xr:ObjectId>754f0a7d-b074-4274-91e7-583e245af398</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>9de14907-ec23-4a07-96f0-85521cb6b53b</xr:ClassId>
+				<xr:ObjectId>58bf6acd-3d40-4668-a815-69955d27ef51</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>51f2d5d8-ea4d-4064-8892-82951750031e</xr:ClassId>
+				<xr:ObjectId>a32881cc-f4aa-4b2c-929d-23b9325ccb67</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>e68182ea-4237-4383-967f-90c1e3370bc7</xr:ClassId>
+				<xr:ObjectId>4a073b06-df9a-4b0e-a18d-722c2aa93c0d</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
+				<xr:ObjectId>292c3006-f0f3-4f0f-9866-4e404bab8486</xr:ObjectId>
+			</xr:ContainedObject>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>1C_MCP_Data</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>1C MCP: запросы к данным информационной базы</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment />
+			<ConfigurationExtensionPurpose>AddOn</ConfigurationExtensionPurpose>
+			<KeepMappingToExtendedConfigurationObjectsByIDs>true</KeepMappingToExtendedConfigurationObjectsByIDs>
+			<NamePrefix>1C_MCP_Data_</NamePrefix>
+			<ConfigurationExtensionCompatibilityMode>Version8_3_20</ConfigurationExtensionCompatibilityMode>
+			<DefaultRunMode>ManagedApplication</DefaultRunMode>
+			<UsePurposes>
+				<v8:Value xsi:type="app:ApplicationUsePurpose">PlatformApplication</v8:Value>
+			</UsePurposes>
+			<ScriptVariant>Russian</ScriptVariant>
+			<DefaultRoles></DefaultRoles>
+			<Vendor>Quicklayn</Vendor>
+			<Version>1.0.0</Version>
+			<DefaultLanguage>Language.Русский</DefaultLanguage>
+			<BriefInformation />
+			<DetailedInformation />
+			<Copyright />
+			<VendorInformationAddress />
+			<ConfigurationInformationAddress />
+			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
+		</Properties>
+		<ChildObjects>
+			<Language>Русский</Language>
+			<Subsystem>1C_MCP_Data_mcp_MCPСервер</Subsystem>
+			<Role>1C_MCP_Data_ПраваИнструментЗапросы</Role>
+			<Role>1C_MCP_Data_ПраваИнструментЖурналРегистрации</Role>
+			<DataProcessor>1C_MCP_Data_ИнструментЗапросы</DataProcessor>
+			<DataProcessor>1C_MCP_Data_ИнструментЖурналРегистрации</DataProcessor>
+		</ChildObjects>
+	</Configuration>
+</MetaDataObject>

@@ -1,0 +1,9 @@
+# Служебные файлы
+*.log
+*.tmp
+Thumbs.db
+.DS_Store
+
+# Каталоги IDE
+.vscode/
+.idea/
