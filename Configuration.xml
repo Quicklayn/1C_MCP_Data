@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles></DefaultRoles>
 			<Vendor>Quicklayn</Vendor>
-			<Version>1.1.0</Version>
+			<Version>1.2.0</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation />
 			<DetailedInformation />
@@ -66,8 +66,10 @@
 			<Subsystem>1C_MCP_Data_mcp_MCPСервер</Subsystem>
 			<Role>1C_MCP_Data_ПраваИнструментЗапросы</Role>
 			<Role>1C_MCP_Data_ПраваИнструментЖурналРегистрации</Role>
+			<Role>1C_MCP_Data_ПраваИнструментВыполнитьКод</Role>
 			<DataProcessor>1C_MCP_Data_ИнструментЗапросы</DataProcessor>
 			<DataProcessor>1C_MCP_Data_ИнструментЖурналРегистрации</DataProcessor>
+			<DataProcessor>1C_MCP_Data_ИнструментВыполнитьКод</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
